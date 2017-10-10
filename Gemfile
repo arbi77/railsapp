@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-# Heriko should use this version of ruby 
+# Heriko should use this version of ruby
 ruby '2.4.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
@@ -10,6 +10,8 @@ gem 'sqlite3' , group: [:development, :test]
 gem 'pg' , group: :production
 #12factor for heroko
 gem 'rails_12factor' , group: :production
+#add twitter bootsraps
+gem 'bootstrap-sass'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
